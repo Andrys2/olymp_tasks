@@ -1,0 +1,9 @@
+class Solution:
+    def plusOne(self, digits: list[int]) -> list[int]:
+        x_int1 = int("".join(digits))
+        x_int2 = x_int1 + 1
+        digit_list = [int(digit) for digit in str(x_int2)]
+        print(digit_list)
+
+s = Solution()
+s.plusOne([1,2,3])
